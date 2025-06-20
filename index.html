@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap"
+      rel="stylesheet"
+    />
+    <title>Open Water Swimming</title>
+    <style>
+      body {
+        background: #7a9eaa;
+      }
+
+      .dark-button {
+        margin: 20px auto;
+        display: block;
+        background: #092c68;
+        color: #f2f1eb;
+        border: none;
+        padding: 10px 20px;
+        font-family: "Roboto Flex", sans-serif;
+        font-size: 1rem;
+        cursor: pointer;
+        border-radius: 22px;
+      }
+
+      h1 {
+        text-align: center;
+        font-family: "Bebas Neue", sans-serif;
+        font-size: 3rem;
+        font-style: italic;
+        color: #092c68;
+        letter-spacing: 0.3rem;
+      }
+
+      h2 {
+        text-align: center;
+        font-family: "Bebas Neue", sans-serif;
+        font-size: 2.2rem;
+        color: #7a9eaa;
+        letter-spacing: 0.1rem;
+        margin: 0 0 20px 0;
+      }
+
+      .container {
+        background: #f2f1eb;
+        padding: 20px;
+        border-radius: 10px;
+        max-width: 650px;
+        margin: 30px auto;
+      }
+
+      .container a {
+        text-decoration: none;
+      }
+
+      img {
+        width: 100%;
+      }
+
+      .open-water-intro-pic {
+        transition: all 250ms ease-in-out;
+      }
+
+      .open-water-intro-pic:hover {
+        filter: contrast(80%);
+        border-radius: 8px;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+        margin: 10px 0 15px 0;
+      }
+
+      .grid img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        transition: all 300ms ease-in-out;
+      }
+
+      .grid img:hover {
+        transform: scale(1.5);
+        border-radius: 8px;
+      }
+
+      p {
+        font-family: "Roboto Flex", sans-serif;
+        font-size: 14px;
+        color: #092c68;
+        line-height: 1.3;
+        margin: 20px 0;
+      }
+
+      .try-button {
+        margin: 40px auto 30px;
+        display: block;
+        background: #092c68;
+        color: #f2f1eb;
+        border: none;
+        padding: 10px 20px;
+        font-family: "Roboto Flex", sans-serif;
+        font-size: 1rem;
+        cursor: pointer;
+        border-radius: 22px;
+      }
+
+      .try-button:hover {
+        background: #f2f1eb;
+        color: #092c68;
+        border: solid 1px #092c68;
+        transition: all 250ms ease-in-out;
+      }
+
+      footer {
+        text-align: center;
+        font-family: "Roboto Flex", sans-serif;
+        font-size: 14px;
+        color: #092c68;
+        margin-bottom: 30px;
+      }
+
+      .coded-by a {
+        text-decoration: none;
+        color: #f2f1eb;
+      }
+
+      .dark .dark-button {
+        background: #f2f1eb;
+        color: #0b2737;
+      }
+
+      .dark {
+        background: #0b2737;
+      }
+
+      .dark .container {
+        background: #0b2737;
+        border: solid 1px #f2f1eb;
+      }
+
+      .dark h1,
+      .dark h2,
+      .dark p,
+      .dark .coded-by {
+        color: #f2f1eb;
+      }
+
+      .dark .try-button {
+        background: #f2f1eb;
+        color: #0b2737;
+      }
+    </style>
+  </head>
+  <body>
+    <button class="dark-button">Change Theme</button>
+    <div class="container">
+      <h1>Open Water Swimming</h1>
+      <h2>Time to reset</h2>
+
+      <a
+        href="https://en.wikipedia.org/wiki/Open_water_swimming"
+        target="_blank"
+      >
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/162/818/original/red-zeppelin-Xed5NXffYX4-unsplash.jpg?1744350052"
+          alt=""
+          class="open-water-intro-pic"
+        />
+      </a>
+      <div class="grid">
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/162/820/original/ricardo-frantz-sC-BXbi9ajw-unsplash.jpg?1744350306"
+          alt=""
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/162/819/original/lawrence-makoona-yTmvgqhT2m0-unsplash.jpg?1744350278"
+          alt=""
+        />
+
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/162/816/original/evangelos-mpikakis-CHzbNvfEVIE-unsplash.jpg?1744350023"
+          alt=""
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/162/815/original/benjamin-l-jones-QC2Ie7LjW78-unsplash.jpg?1744349749"
+          alt=""
+        />
+      </div>
+      <img
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/162/817/original/falco-negenman-iPnjmqY6tas-unsplash.jpg?1744350038"
+        alt=""
+      />
+
+      <p>
+        Open water swimming is a thrilling and invigorating experience that
+        allows you to connect with nature while exercising your body and mind.
+        Trade the chlorine for crisp fresh air, experience sunrises over lakes,
+        peaceful ocean swells, and the grounding energy of nature as you immerse
+        yourself in these magical bodies of water. Whether you're chasing
+        personal goals, training for an event, or simply enjoying the serenity
+        of the water, open water swimming offers challenge, adventure, and a
+        growing community of like-minded enthusiasts. Move with tides and
+        experience fitness in its most natural form.
+      </p>
+
+      <a
+        href="https://openwaterswim.com.au/OWS_open_water_swim.html"
+        target="_blank"
+        ><button class="try-button">
+          The water is waiting, are you in?
+        </button></a
+      >
+    </div>
+
+    <footer class="coded-by">
+      Coded by
+      <a href="https://github.com/shortstack8" target="_blank">Tirelle Peter</a>
+      🌊
+    </footer>
+    <script>
+      const joinOpenWater = () => {
+        let name = prompt("Hello 🙂 What is your name?");
+        let opinion = prompt(
+          `Hi ${name}, ready to give open water swimming a go? Yes or No 🤔`
+        );
+        opinion = opinion.toLowerCase();
+        opinion = opinion.trim();
+
+        if (opinion === "yes") {
+          prompt(
+            `Amazing effort taking the plunge 🤩 what is your email address?`
+          );
+          alert(
+            `Thanks ${name}! 🥳 We'll email you shortly with information on how to begin your journey into open water swimming!! 🌊`
+          );
+        } else {
+          alert(
+            "Oh that's okay, not to worry, we're here when you're ready to take the plunge! 💙"
+          );
+        }
+      };
+
+      let tryButton = document.querySelector(".try-button");
+      tryButton.addEventListener("click", joinOpenWater);
+
+      function changeTheme() {
+        let body = document.querySelector("body");
+
+        // body.classList.toggle("dark");
+
+        if (body.classList.contains("dark")) {
+          body.classList.remove("dark");
+        } else {
+          body.classList.add("dark");
+        }
+      }
+
+      let darkButton = document.querySelector(".dark-button");
+      darkButton.addEventListener("click", changeTheme);
+    </script>
+  </body>
+</html>
